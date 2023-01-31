@@ -7,7 +7,7 @@ import pandas as pd
 auth = requests.auth.HTTPBasicAuth(CLIENT_ID, SECRET_KEY)
 data = {'grant_type': 'password',
         'username': 'tmeta', 
-        'password': 'Thomas.meta13'}
+        'password': 'password'}
     
 headers = {'User-Agent': 'MyAPI/0.0.1'}
 
